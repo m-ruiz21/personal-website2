@@ -9,7 +9,7 @@ import { Page } from "@/components/navbar";
 export default function Home() {
 
     return (
-        <div className="height-dhv sm:min-h-screen flex flex-col">
+        <div className="h-[100dvh] sm:min-h-screen flex flex-col">
             <Navbar page={Page.HOME}/>
             <main className="flex-grow flex items-center justify-center">
                 <HomeIntro/>
