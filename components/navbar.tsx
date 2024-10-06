@@ -1,6 +1,5 @@
 import { Box, Highlight, Flex, Text, Spacer } from "@chakra-ui/react";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 const NavbarLink = ({ href, children, active }: {href: string, children: string, active: Boolean}) => {
     return ( 
@@ -40,7 +39,7 @@ const Navbar = ({ page }: {page: Page}) => {
         <Box py={4} px={0}>
             <Flex mx={["2", "10"]} align="center">
                 <Flex
-                    gap={8}
+                    gap={[2,8]}
                     align="center"
                     flexGrow={[1, 0]} 
                     justify={["space-around", "flex-start"]} 
@@ -53,7 +52,7 @@ const Navbar = ({ page }: {page: Page}) => {
                 <Spacer display={["none", "flex"]} /> 
 
                 <Flex
-                    gap={8}
+                    gap={[2,8]}
                     align="center"
                     justify={["space-around", "flex-end"]} // Spaced evenly on mobile, right-aligned on desktop
                     flexGrow={[1, 0]} // Same behavior as the first group: equally spaced on mobile

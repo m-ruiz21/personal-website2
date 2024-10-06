@@ -8,6 +8,7 @@ import SkillsSection from './skill_section';
 import { Grid } from '@chakra-ui/react';
 import FadeIn from '@/components/fade_in';
 import ExperienceTimeline from './experience_timeline';
+import type { Role } from './experience_timeline';
 
 interface Skill {
     name: string;
@@ -36,41 +37,74 @@ const frameworks: Skill[] = [
     { name: 'Laravel', level: 3 },
 ];
 
-const roles = [
+const roles : Role[] = [
   {
-    companyImage: '/images/company1.png',
-    companyName: 'Company A',
-    roleName: 'Software Engineer',
-    timeInvolved: 'Jan 2020 - Present',
-    details: 'Worked on developing scalable web applications and microservices.',
+    companyImage: '/Microsoft.svg',
+    companyName: 'Microsoft',
+    roleName: 'SWE Intern',
+    datesInvolved: 'May 2024 - August 2024',
+    details: [
+        '12 week internship working on the Unified Security Operations Center (1SOC) team.',
+        'In that time, I pioneered the first Copilot features in Microsoft Sentinel by building and optimizing Retrieval Augmented Generation (RAG) pipelines. Doing so required me leading cross-functional collaboration with two international teams and Microsoft R&D to establish key development guidelines that became the framework of development for the team.',
+        'Additionally, while talking to the research team, I realized there was an opportunity to improve the current Copilot skill development process. As a result, I took the initiative to create an automated testing system that leveraged advances in automated fact-checking and natural language processing, reducing skill evaluation time by 97% and increasing monitoring accuracy by 42%.'
+    ],
   },
   {
-    companyImage: '/images/company2.png',
-    companyName: 'Company B',
-    roleName: 'Frontend Developer',
-    timeInvolved: 'Mar 2018 - Dec 2019',
-    details: 'Built responsive user interfaces using React, Redux, and Tailwind CSS.',
+    companyImage: '/TamuHack.svg',
+    companyName: 'TAMUHack',
+    roleName: 'Tech Director',
+    datesInvolved: 'April 2022 - May 2024',
+    details: ['Developed tools supporting some of Texas’ largest student-run hackathons, including four event websites (HowdyHack 2022 - TAMUhack 2024) and an AI-censored Spotify Queue.', 'To do so, I utilized technologies like Vue.js, SvelteKit, Next.js, and PostgreSQL to drive these projects. Actively mentored participants and managed technical challenges during hackathons, supporting the success of each event.'],
   },
   {
-    companyImage: '/images/company3.png',
-    companyName: 'Company C',
-    roleName: 'Backend Developer',
-    timeInvolved: 'Jan 2016 - Feb 2018',
-    details: 'Worked on RESTful APIs, databases, and server-side architecture.',
+    companyImage: '/TAMU.svg',
+    companyName: 'Texas A&M University',
+    roleName: 'Teaching Assistant',
+    datesInvolved: 'Jan 2023 - Jan 2024',
+    details: ['Assisted Dr. Martin Carlisle, Dr. Shawn Lupoli, and Dr. Jeff Huang with their CSCE 222 (Discrete Structures of Computing) course sections made up of 210+ total students.', 'As part of my responsibilities, I held biweekly office hours, graded assignments, and held study sessions.']
   },
+  {
+    companyImage: '/Microsoft.svg',
+    companyName: 'Microsoft',
+    roleName: 'SWE Intern',
+    datesInvolved: 'May 2023 - Aug 2023',
+    details: ['12 week internship with the Microsoft Sentinel team.',
+    'Led the development and testing efforts for the React migration of the Continuous Integration feature in Microsoft Sentinel.',
+    'My project also included a backend portion, where I refactored API controllers and implemented an automated Service Principal rotation service in preparation for general availability (GA).', 
+    'Additionally, I realized the onboarding process was timely and tedious, so I created a script to maintain repository dependencies as code, reducing developer onboarding time by 80%. As a result, the script has now been adopted accross other teams and repositories as well.'],
+  },
+  {
+    companyImage: '/Microsoft.svg',
+    companyName: 'Microsoft',
+    roleName: 'Explore Intern (PM + SWE)',
+    datesInvolved: 'May 2022 - Aug 2022',
+    details: ['Completed a 12-week internship focused on building a serverless automation tool for Microsoft Sentinel.', 
+    'Led the backend development using Azure Durable Functions, Cosmos DB, and the Twilio API.', 'Furthermore, as part of the PM portion of my internship, I conducted product research and competitive analysis to create customer personas, mock-ups, and product specifications.'],
+  } 
 ];
+
+const education: Role[] = [
+  {
+    companyImage: '/TAMU.svg',
+    companyName: 'TEXAS A&M University',
+    roleName: 'B.S. in Computer Engineering',
+    datesInvolved: 'August 2020 - December 2024',
+    details: [
+        "- GPA: 3.7 / 4.0", 
+        "- Awards: National Hispanic Merit Scholar, Raymond Ideas Challenge Finalist", 
+        "- Relevant Coursework: Recommendation Systems and Natural Language processing, Machine Learning, Cloud Computing, Programming Languages"],
+  }
+]
 
 const About = () => {
     return (
         <>
             <Navbar page={Page.ABOUT} />
-            <div className="flex flex-col items-center py-10">
-                {/* Main container */}
+            <div className="flex flex-col items-center sm:py-10">
                 <div className="w-full md:w-3/4 mx-auto p-6">
-                    {/* Heading Section */}
                     <Box className="text-center mb-8">
                         <Heading as="h1" fontSize={["6xl", "8xl"]} className="text-gray-900 font-bold">
-                            I’m Mateo
+                            I’m Mateo.
                         </Heading>
                     </Box>
                     <FadeIn delay={250} transitionDuration={600}>
@@ -103,7 +137,7 @@ const About = () => {
                             </Box>
                         </div>
                         
-                        <Text fontSize={["3xl", "5xl"]} className="text-gray-900 font-[600] mt-16">
+                        <Text fontSize={["3xl", "5xl"]} className="text-gray-900 font-[600] mt-8 sm:mt-16">
                             My skills 
                         </Text>
                         <Grid
@@ -115,11 +149,15 @@ const About = () => {
                             <SkillsSection title="Frameworks" skills={frameworks} />
                         </Grid>
                         
-                        <Text fontSize={["3xl", "5xl"]} className="text-gray-900 font-[600] mt-16">
+                        <Text fontSize={["3xl", "5xl"]} className="text-gray-900 font-[600] mt-8 sm:mt-16">
                             My experiences
                         </Text>
-                        <ExperienceTimeline roles={roles} />
-
+                        <ExperienceTimeline roles={roles} /> 
+                        
+                        <Text fontSize={["3xl", "5xl"]} className="text-gray-900 font-[600] mt-8 sm:mt-16">
+                            My education 
+                        </Text>
+                        <ExperienceTimeline roles={education} /> 
                         </FadeIn>
                     </div>
             </div>

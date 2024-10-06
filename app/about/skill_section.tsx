@@ -14,7 +14,7 @@ interface SkillsSectionProps {
 
 const SkillsSection: React.FC<SkillsSectionProps> = ({ title, skills }) => {
     return (
-        <Box mb={10} textAlign="start">
+        <Box textAlign="start" color="black">
             <Text fontSize="2xl" fontWeight="bold" mb={6}>
                 {title}
             </Text>

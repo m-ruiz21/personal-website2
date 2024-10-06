@@ -8,6 +8,7 @@ const HomeIntro = () => {
         <Text 
             fontSize={["3xl", "5xl"]} 
             fontWeight="light" 
+            color="black"
             mb={4}
         >
             Howdy! I’m{" "}
@@ -31,6 +32,7 @@ const HomeIntro = () => {
                 alignItems="center" 
                 fontSize={["2xl","4xl"]} 
                 fontWeight="light"
+                color="black"
             >
                 <Text as="span" fontWeight="light">
                     I am a {" "}
