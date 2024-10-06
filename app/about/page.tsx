@@ -56,7 +56,7 @@ const roles : Role[] = [
     details: ['Developed tools supporting some of Texas’ largest student-run hackathons, including four event websites (HowdyHack 2022 - TAMUhack 2024) and an AI-censored Spotify Queue.', 'To do so, I utilized technologies like Vue.js, SvelteKit, Next.js, and PostgreSQL to drive these projects. During the events, I actively mentored participants and managed technical challenges during hackathons, supporting the success of each event.'],
   },
   {
-    companyImage: '/TAMU.jpeg',
+    companyImage: '/tamu.jpeg',
     companyName: 'Texas A&M University',
     roleName: 'Teaching Assistant',
     datesInvolved: 'Jan 2023 - Jan 2024',
