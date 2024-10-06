@@ -7,7 +7,7 @@ const HomeFooter = () => {
             <Link href="https://github.com/m-ruiz21" mx={3}>
                 <Image src="/github-logo.png" alt="GitHub" width={photoSize} height={photoSize} />
             </Link>
-            <Link href="https://linkedin.com/in/amruiz" mx={3}>
+            <Link href="https://linkedin.com/in/amateoruiz" mx={3}>
                 <Image src="/linkedin-logo.png" alt="Linkedin" width={photoSize} height={photoSize} />
             </Link>
         </Flex>
