@@ -13,9 +13,9 @@ const projects = [
         tools: ["React", "TypeScript", "Chakra UI"],
         details: [
             "I led a team to develop an open-source AI robot aimed at serving as an affordable mobility aid for the blind.",
+            "Our robot demonstrated an impressive ability to navigate its environment, achieving a reaction time twice as fast as humans and a 99.7% success rate.",
             "As part of the project I wrote the driving code in Python and a Rust-based traversal library that implemented an optimized A* algorithm on a Gaussian grid.",
             "I was also heavily involved in efforts for the 3D prototying and C++ interface.",
-            "Our robot demonstrated an impressive ability to navigate its environment, achieving a reaction time twice as fast as humans and a 99.7% success rate.",
         ]
     },
     {

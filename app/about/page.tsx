@@ -44,7 +44,7 @@ const roles : Role[] = [
     datesInvolved: 'May 2024 - August 2024',
     details: [
         '12 week internship working on the Unified Security Operations Center (1SOC) team.',
-        'In that time, I pioneered the first Copilot features in Microsoft Sentinel by building and optimizing Retrieval Augmented Generation (RAG) pipelines. Doing so required me leading cross-functional collaboration with two international teams and Microsoft R&D to establish key development guidelines that became the framework of development for the team.',
+        'In that time, I pioneered the first Copilot features in Microsoft Sentinel by building and optimizing Retrieval Augmented Generation (RAG) pipelines. Doing so required me leading cross-functional collaboration with two international teams and Microsoft R&D to establish key development guidelines.',
         'Additionally, while talking to the research team, I realized there was an opportunity to improve the current Copilot skill development process. As a result, I took the initiative to create an automated testing system that leveraged advances in automated fact-checking and natural language processing, reducing skill evaluation time by 97% and increasing monitoring accuracy by 42%.'
     ],
   },
@@ -53,7 +53,7 @@ const roles : Role[] = [
     companyName: 'TAMUHack',
     roleName: 'Tech Director',
     datesInvolved: 'April 2022 - May 2024',
-    details: ['Developed tools supporting some of Texas’ largest student-run hackathons, including four event websites (HowdyHack 2022 - TAMUhack 2024) and an AI-censored Spotify Queue.', 'To do so, I utilized technologies like Vue.js, SvelteKit, Next.js, and PostgreSQL to drive these projects. Actively mentored participants and managed technical challenges during hackathons, supporting the success of each event.'],
+    details: ['Developed tools supporting some of Texas’ largest student-run hackathons, including four event websites (HowdyHack 2022 - TAMUhack 2024) and an AI-censored Spotify Queue.', 'To do so, I utilized technologies like Vue.js, SvelteKit, Next.js, and PostgreSQL to drive these projects. During the events, I actively mentored participants and managed technical challenges during hackathons, supporting the success of each event.'],
   },
   {
     companyImage: '/TAMU.svg',
@@ -85,7 +85,7 @@ const roles : Role[] = [
 const education: Role[] = [
   {
     companyImage: '/TAMU.svg',
-    companyName: 'TEXAS A&M University',
+    companyName: 'Texas A&M University',
     roleName: 'B.S. in Computer Engineering',
     datesInvolved: 'August 2020 - December 2024',
     details: [

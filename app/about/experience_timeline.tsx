@@ -52,7 +52,7 @@ const ExperienceContent = ({ role }: { role: Role }) => (
               <Text fontWeight="bold" textAlign={"start"} color="black" fontSize={["lg", "3xl"]}>
                 {role.roleName}
               </Text>
-              <Text color="gray.600" textAlign={"start"} fontSize={["md", "lg"]}>
+              <Text color="gray.600" textAlign={"start"} fontSize={["lg", "xl"]}>
                 {role.companyName}
               </Text>
             </Flex>

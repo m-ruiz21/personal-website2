@@ -7,15 +7,16 @@ import Navbar from "@/components/navbar";
 import { Page } from "@/components/navbar";
 
 export default function Home() {
-  return (
-    <div className="min-h-screen flex flex-col">
-        <Navbar page={Page.HOME}/>
-        <main className="flex-grow flex items-center justify-center">
-            <HomeIntro/>
-        </main>
-        <FadeIn delay={500} transitionDuration={500}>
-        <HomeFooter/>
-        </FadeIn>
+
+    return (
+        <div className="height-dhv sm:min-h-screen flex flex-col">
+            <Navbar page={Page.HOME}/>
+            <main className="flex-grow flex items-center justify-center">
+                <HomeIntro/>
+            </main>
+            <FadeIn delay={500} transitionDuration={500}>
+                <HomeFooter/>
+            </FadeIn>
     </div>
   );
 }
