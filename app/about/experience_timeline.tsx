@@ -49,10 +49,10 @@ const ExperienceContent = ({ role }: { role: Role }) => (
               flexDirection="column"
               alignItems="flex-start"
             >
-              <Text fontWeight="bold" color="black" fontSize={["lg", "3xl"]}>
+              <Text fontWeight="bold" textAlign={"start"} color="black" fontSize={["lg", "3xl"]}>
                 {role.roleName}
               </Text>
-              <Text color="gray.600" fontSize={["md", "lg"]}>
+              <Text color="gray.600" textAlign={"start"} fontSize={["md", "lg"]}>
                 {role.companyName}
               </Text>
             </Flex>

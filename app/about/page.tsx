@@ -1,4 +1,3 @@
-// pages/about.js
 "use client"
 import Image from 'next/image';
 import { Box, Text, Heading } from '@chakra-ui/react';
@@ -90,9 +89,9 @@ const education: Role[] = [
     roleName: 'B.S. in Computer Engineering',
     datesInvolved: 'August 2020 - December 2024',
     details: [
-        "- GPA: 3.7 / 4.0", 
-        "- Awards: National Hispanic Merit Scholar, Raymond Ideas Challenge Finalist", 
-        "- Relevant Coursework: Recommendation Systems and Natural Language processing, Machine Learning, Cloud Computing, Programming Languages"],
+        "GPA: 3.7 / 4.0", 
+        "Awards: National Hispanic Merit Scholar, Raymond Ideas Challenge Finalist", 
+        "Relevant Coursework: Recommendation Systems and Natural Language processing, Machine Learning, Cloud Computing, Programming Languages"],
   }
 ]
 
