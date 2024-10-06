@@ -1,4 +1,4 @@
-import { Box, Grid, Heading, Image, Text } from '@chakra-ui/react';
+import { Box, Heading, Text } from '@chakra-ui/react';
 import Navbar from '@/components/navbar';
 import { Page } from '@/components/navbar';
 import FadeIn from '@/components/fade_in';
