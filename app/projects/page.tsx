@@ -8,7 +8,7 @@ import ProjectTimeline from './projects_timeline';
 const projects = [
     {
         projectName: "SPOT - AI Guide Dog",
-        time: "January 2024 - May 2024",
+        time: "Jan 2024 - May 2024",
         link: "https://github.com/m-ruiz21/SPOT", 
         tools: ["Rust", "Python", "C++"],
         details: [
@@ -20,7 +20,7 @@ const projects = [
     },
     {
         projectName: "Conversational Recommender System for Spotify",
-        time: "August 2023 - December 2023",
+        time: "Aug 2023 - Dec 2023",
         link: "", 
         tools: ["Python", "Next.js", "PostgreSQL"],
         details: [
@@ -29,7 +29,7 @@ const projects = [
     },
     {
         projectName: "TAMUhack X Website",
-        time: "December 2023 - Febuary 2024",
+        time: "Dec 2023 - Feb 2024",
         link: "https://x.tamuhack.org", 
         tools: ["Svelte.js, Tailwind CSS"],
         details: [
@@ -38,7 +38,7 @@ const projects = [
     },
     {
         projectName: "Restaurant Point of Sales (PoS) System",
-        time: "March 2023 - May 2023",
+        time: "Mar 2023 - May 2023",
         link: "https://github.com/m-ruiz21/project3_pi", 
         tools: ["Python", "Next.js", "PostgreSQL"],
         details: [
@@ -47,7 +47,7 @@ const projects = [
     },
     {
         projectName: "AI Playlist Generator",
-        time: "October 2023 - December 2023",
+        time: "Oct 2023 - Dec 2023",
         link: "https://github.com/m-ruiz21/SpotifyRecommender", 
         tools: ["Python", "Next.js", "TailwindCSS"],
         details: [
@@ -56,7 +56,7 @@ const projects = [
     },
     {
         projectName: "TAMUhack 2023 Website",
-        time: "December 2022 - Febuary 2022",
+        time: "Dec 2022 - Feb 2022",
         link: "https://tamuhack.org/th/2023", 
         tools: ["Vue.js", "Tailwind CSS"],
         details: [
@@ -65,7 +65,7 @@ const projects = [
     },
     {
         projectName: "Aggie Shell",
-        time: "December 2022",
+        time: "Dec 2022",
         link: "https://github.com/m-ruiz21/aggie_shell", 
         tools: ["Rust", "Systems Development"],
         details: [
@@ -75,7 +75,7 @@ const projects = [
     },
     {
         projectName: "HowdyHack 2022 Website",
-        time: "June 2022 - October 2022",
+        time: "Jun 2022 - Oct 2022",
         link: "https://tamuhack.org/hh/2023", 
         tools: ["Vue.js", "Tailwind CSS"],
         details: [
@@ -84,7 +84,7 @@ const projects = [
     },
     {
         projectName: "Multithreaded C++ TCP Server",
-        time: "September 2022",
+        time: "SEP 2022",
         link: "", 
         tools: ["C++", "Docker"],
         details: [
@@ -94,7 +94,7 @@ const projects = [
     },
     {
         projectName: "Rust Text Editor",
-        time: "August 2022",
+        time: "Aug 2022",
         link: "https://github.com/m-ruiz21/pound", 
         tools: ["Rust"],
         details: [
@@ -104,7 +104,7 @@ const projects = [
     },
     {
         projectName: "vRun - Verilog CLI tool",
-        time: "Febuary 2021",
+        time: "Feb 2021",
         link: "", 
         tools: ["Bash", "Verilog"],
         details: [
@@ -114,7 +114,7 @@ const projects = [
     },
     {
         projectName: "Movie Search App",
-        time: "June 2021",
+        time: "Jun 2021",
         link: "https://github.com/m-ruiz21/capital_one_challenge", 
         tools: ["Next.js", "TailwindCSS"],
         details: [

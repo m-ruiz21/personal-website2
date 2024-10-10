@@ -34,7 +34,7 @@ const ExperienceContent = ({ role }: { role: Role }) => (
           <Flex
             alignItems="center" 
             gap={4}
-            flexDirection={["row", "row"]} // Keep image and text in a row for both mobile and larger screens
+            flexDirection="row"
             width="100%"
           >
             <Image
@@ -58,7 +58,7 @@ const ExperienceContent = ({ role }: { role: Role }) => (
             </Flex>
           </Flex>
 
-          <Text color="gray.900" fontSize={["lg", "2xl"]} flexShrink={0}>
+          <Text color="gray.900" fontSize={["lg", "xl"]} flexShrink={0}>
             {role.datesInvolved}
           </Text>
         </Flex>

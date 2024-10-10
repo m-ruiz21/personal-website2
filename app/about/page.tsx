@@ -41,7 +41,7 @@ const roles : Role[] = [
     companyImage: '/Microsoft.svg',
     companyName: 'Microsoft',
     roleName: 'SWE Intern',
-    datesInvolved: 'May 2024 - August 2024',
+    datesInvolved: 'May 2024 - Aug 2024',
     details: [
         '12 week internship working on the Unified Security Operations Center (1SOC) team.',
         'In that time, I pioneered the first Copilot features in Microsoft Sentinel by building and optimizing Retrieval Augmented Generation (RAG) pipelines. Doing so required me leading cross-functional collaboration with two international teams and Microsoft R&D to establish key development guidelines.',
@@ -52,7 +52,7 @@ const roles : Role[] = [
     companyImage: '/tamuhack.png',
     companyName: 'TAMUHack',
     roleName: 'Tech Director',
-    datesInvolved: 'April 2022 - May 2024',
+    datesInvolved: 'APR 2022 - May 2024',
     details: ['Developed tools supporting some of Texas’ largest student-run hackathons, including four event websites (HowdyHack 2022 - TAMUhack 2024) and an AI-censored Spotify Queue.', 'To do so, I utilized technologies like Vue.js, SvelteKit, Next.js, and PostgreSQL to drive these projects. During the events, I actively mentored participants and managed technical challenges during hackathons, supporting the success of each event.'],
   },
   {
@@ -87,7 +87,7 @@ const education: Role[] = [
     companyImage: '/tamu.jpeg',
     companyName: 'Texas A&M University',
     roleName: 'B.S. in Computer Engineering',
-    datesInvolved: 'August 2020 - December 2024',
+    datesInvolved: 'Aug 2020 - Dec 2024',
     details: [
         "GPA: 3.7 / 4.0", 
         "Awards: National Hispanic Merit Scholar, Raymond Ideas Challenge Finalist", 
@@ -110,11 +110,11 @@ const About = () => {
                         <div className="flex flex-col md:flex-row items-center">
                             <Box className="mb-8 md:mb-0 md:mr-8 w-full md:w-1/3 flex justify-center">
                                 <Image
-                                    src="/me.png"
+                                    src="/me.jpeg"
                                     alt="Mateo Ruiz"
                                     width={300}
                                     height={400}
-                                    className="rounded-xl"
+                                    className="w-70 h-auto rounded-xl overflow-hidden"
                                 />
                             </Box>
 
@@ -130,7 +130,7 @@ const About = () => {
                                     AI-driven applications.
                                 </Text>
                                 <Text fontSize={["lg", "xl"]} className="text-gray-800 mt-4 leading-7">
-                                    These days, I’m waiting to graduate with honors in December 2024 with my B.S. in Computer
+                                    These days, I’m waiting to graduate with honors in Dec 2024 with my B.S. in Computer
                                     Engineering from Texas A&M University.
                                 </Text>
                             </Box>
