@@ -52,7 +52,7 @@ const roles : Role[] = [
     companyImage: '/tamuhack.png',
     companyName: 'TAMUHack',
     roleName: 'Tech Director',
-    datesInvolved: 'APR 2022 - May 2024',
+    datesInvolved: 'Apr 2022 - May 2024',
     details: ['Developed tools supporting some of Texas’ largest student-run hackathons, including four event websites (HowdyHack 2022 - TAMUhack 2024) and an AI-censored Spotify Queue.', 'To do so, I utilized technologies like Vue.js, SvelteKit, Next.js, and PostgreSQL to drive these projects. During the events, I actively mentored participants and managed technical challenges during hackathons, supporting the success of each event.'],
   },
   {

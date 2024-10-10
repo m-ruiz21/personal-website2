@@ -4,7 +4,6 @@ import { Page } from '@/components/navbar';
 import FadeIn from '@/components/fade_in';
 import ProjectTimeline from './projects_timeline';
 
-
 const projects = [
     {
         projectName: "SPOT - AI Guide Dog",
@@ -84,7 +83,7 @@ const projects = [
     },
     {
         projectName: "Multithreaded C++ TCP Server",
-        time: "SEP 2022",
+        time: "Sep 2022",
         link: "", 
         tools: ["C++", "Docker"],
         details: [
