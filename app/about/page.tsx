@@ -49,7 +49,7 @@ const roles : Role[] = [
     ],
   },
   {
-    companyImage: '/tamuhack.png',
+    companyImage: '/tamuhack.jpeg',
     companyName: 'TAMUHack',
     roleName: 'Tech Director',
     datesInvolved: 'Apr 2022 - May 2024',

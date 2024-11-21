@@ -77,7 +77,6 @@ const ExperienceContent = ({ role }: { role: Role }) => (
 );
 
 const Experience = ({ role }: { role: Role }) => {
-  const photoSize = [16, 20];
 
   return (
     <TimelineItem>

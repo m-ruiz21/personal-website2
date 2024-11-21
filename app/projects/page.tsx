@@ -104,7 +104,7 @@ const projects = [
     {
         projectName: "vRun - Verilog CLI tool",
         time: "Feb 2021",
-        link: "", 
+        link: "https://github.com/m-ruiz21/vRun", 
         tools: ["Bash", "Verilog"],
         details: [
         "Faced with the problem of getting Verilog wave forms in wsl, I created a quick bash script to help me and my classmates manage, run, and view of Verilog scripts and their waveforms more easily."
