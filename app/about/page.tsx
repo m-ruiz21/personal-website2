@@ -38,7 +38,7 @@ const frameworks: Skill[] = [
 
 const roles : Role[] = [
   {
-    companyImage: '/Microsoft.svg',
+    companyImage: '/microsoft.png',
     companyName: 'Microsoft',
     roleName: 'SWE Intern',
     datesInvolved: 'May 2024 - Aug 2024',
@@ -63,7 +63,7 @@ const roles : Role[] = [
     details: ['Assisted Dr. Martin Carlisle, Dr. Shawn Lupoli, and Dr. Jeff Huang with their CSCE 222 (Discrete Structures of Computing) course sections made up of 210+ total students.', 'As part of my responsibilities, I held biweekly office hours, graded assignments, and held study sessions.']
   },
   {
-    companyImage: '/Microsoft.svg',
+    companyImage: '/microsoft.png',
     companyName: 'Microsoft',
     roleName: 'SWE Intern',
     datesInvolved: 'May 2023 - Aug 2023',
@@ -73,7 +73,7 @@ const roles : Role[] = [
     'Additionally, I realized the onboarding process was timely and tedious, so I created a script to maintain repository dependencies as code, reducing developer onboarding time by 80%. As a result, the script has now been adopted accross other teams and repositories as well.'],
   },
   {
-    companyImage: '/Microsoft.svg',
+    companyImage: '/microsoft.png',
     companyName: 'Microsoft',
     roleName: 'Explore Intern (PM + SWE)',
     datesInvolved: 'May 2022 - Aug 2022',
@@ -100,25 +100,25 @@ const About = () => {
         <>
             <Navbar page={Page.ABOUT} />
             <div className="flex flex-col items-center sm:py-10">
-                <div className="w-full md:w-3/4 mx-auto p-6">
+                <div className="w-full md:w-7/8 xl:w-3/4 mx-auto p-6">
                     <Box className="text-center mb-8">
                         <Heading as="h1" fontSize={["6xl", "8xl"]} className="text-gray-900 font-bold">
                             I’m Mateo.
                         </Heading>
                     </Box>
                     <FadeIn delay={250} transitionDuration={600}>
-                        <div className="flex flex-col md:flex-row items-center">
-                            <Box className="mb-8 md:mb-0 md:mr-8 w-full md:w-1/3 flex justify-center">
+                        <div className="flex flex-col lg:flex-row items-center">
+                            <Box className="mb-8 lg:mb-0 lg:mr-8 w-full lg:w-1/3 flex justify-center">
                                 <Image
                                     src="/me.jpeg"
                                     alt="Mateo Ruiz"
                                     width={300}
                                     height={400}
-                                    className="w-70 h-auto rounded-xl overflow-hidden"
+                                    className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto rounded-xl overflow-hidden"
                                 />
                             </Box>
 
-                            <Box className="w-full md:w-3/4 text-left">
+                            <Box className="w-full lg:w-3/4 text-left">
                                 <Text fontSize={["3xl", "5xl"]} className="text-gray-900">
                                     I am a{' '}
                                     <span className="text-blue-600 font-semibold">Software Developer</span>{' '}
