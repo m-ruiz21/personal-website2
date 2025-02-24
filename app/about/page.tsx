@@ -49,7 +49,7 @@ const roles : Role[] = [
     ],
   },
   {
-    companyImage: '/tamuhack.jpeg',
+    companyImage: '/tamuhack.svg',
     companyName: 'TAMUHack',
     roleName: 'Tech Director',
     datesInvolved: 'Apr 2022 - May 2024',
@@ -89,7 +89,8 @@ const education: Role[] = [
     roleName: 'B.S. in Computer Engineering',
     datesInvolved: 'Aug 2020 - Dec 2024',
     details: [
-        "GPA: 3.7 / 4.0", 
+        "Honors: Cum Laude",
+        "GPA: 3.67 / 4.0", 
         "Awards: National Hispanic Merit Scholar, Raymond Ideas Challenge Finalist", 
         "Relevant Coursework: Recommendation Systems and Natural Language processing, Machine Learning, Cloud Computing, Programming Languages"],
   }
@@ -102,7 +103,7 @@ const About = () => {
             <div className="flex flex-col items-center sm:py-10">
                 <div className="w-full md:w-7/8 xl:w-3/4 mx-auto p-6">
                     <Box className="text-center mb-8">
-                        <Heading as="h1" fontSize={["6xl", "8xl"]} className="text-gray-900 font-bold">
+                        <Heading as="h1" fontSize={["6xl", "8xl"]} className="text-[#332216] font-bold">
                             I’m Mateo.
                         </Heading>
                     </Box>
@@ -119,24 +120,23 @@ const About = () => {
                             </Box>
 
                             <Box className="w-full lg:w-3/4 text-left">
-                                <Text fontSize={["3xl", "5xl"]} className="text-gray-900">
+                                <Text fontSize={["3xl", "5xl"]} className="text-[#332216]">
                                     I am a{' '}
-                                    <span className="text-blue-600 font-semibold">Software Developer</span>{' '}
+                                    <span className="text-[#59772F] font-semibold">Software Developer</span>{' '}
                                     with a diverse and dynamic skill set
                                 </Text>
-                                <Text fontSize={["lg", "xl"]} className="text-gray-800 mt-4 leading-7">
+                                <Text fontSize={["lg", "xl"]} className="text-[#332216] font-semibold mt-4 leading-7">
                                     Over the last 12 years, I’ve gone from scavenging Radio Shack for small Arduino projects
                                     to gaining hands-on experience with cloud-native systems, full-stack development, and
-                                    AI-driven applications.
+                                    AI-driven applications. 
                                 </Text>
-                                <Text fontSize={["lg", "xl"]} className="text-gray-800 mt-4 leading-7">
-                                    These days, I’m waiting to graduate with honors in Dec 2024 with my B.S. in Computer
-                                    Engineering from Texas A&M University.
+                                <Text fontSize={["lg", "xl"]} className="text-[#332216] font-semibold mt-4 leading-7">
+                                    These days, I'm working with Microsoft as a Software Engineer, building scalable, AI-powered security tools that help teams detect threats, respond faster, and effectively protect large-scale critical cloud systems.
                                 </Text>
                             </Box>
                         </div>
                         
-                        <Text fontSize={["3xl", "5xl"]} className="text-gray-900 font-[600] mt-8 sm:mt-16">
+                        <Text fontSize={["3xl", "5xl"]} className="text-[#332216] font-[600] mt-8 sm:mt-16">
                             My skills 
                         </Text>
                         <Grid
@@ -148,12 +148,12 @@ const About = () => {
                             <SkillsSection title="Frameworks" skills={frameworks} />
                         </Grid>
                         
-                        <Text fontSize={["3xl", "5xl"]} className="text-gray-900 font-[600] mt-8 sm:mt-16">
+                        <Text fontSize={["3xl", "5xl"]} className="text-[#332216] font-[600] mt-8 sm:mt-16">
                             My experiences
                         </Text>
                         <ExperienceTimeline roles={roles} /> 
                         
-                        <Text fontSize={["3xl", "5xl"]} className="text-gray-900 font-[600] mt-8 sm:mt-16">
+                        <Text fontSize={["3xl", "5xl"]} className="text-[#332216] font-[600] mt-8 sm:mt-16">
                             My education 
                         </Text>
                         <ExperienceTimeline roles={education} /> 

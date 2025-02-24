@@ -30,7 +30,7 @@ const projects = [
         projectName: "TAMUhack X Website",
         time: "Dec 2023 - Feb 2024",
         link: "https://x.tamuhack.org", 
-        tools: ["Svelte.js, Tailwind CSS"],
+        tools: ["Svelte.js", "Tailwind CSS"],
         details: [
         "Aided in the development of the TAMUhack X website, our tenth anniversary hackathon" 
         ]
@@ -129,12 +129,12 @@ const Projects = () => {
             <div className="flex flex-col items-center sm:py-10">
                 <div className="w-full md:w-3/4 mx-auto p-6">
                     <Box className="text-center mb-8">
-                        <Heading as="h1" fontSize={["6xl", "8xl"]} className="text-gray-900 font-bold">
+                        <Heading as="h1" fontSize={["6xl", "8xl"]} className="text-[#332216] font-bold">
                             My Projects.
                         </Heading>
                     </Box>
                     <FadeIn delay={250} transitionDuration={600}>
-                        <Text fontSize={["lg", "xl"]} className="text-center text-gray-800 mt-4 leading-7">
+                        <Text fontSize={["lg", "xl"]} className="text-center text-[#4D3E2E] mt-4 leading-7">
                             Here are some of the projects I've worked on over the years.                        
                         </Text>
                     <ProjectTimeline projects={projects}/>

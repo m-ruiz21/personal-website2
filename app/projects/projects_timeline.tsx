@@ -19,11 +19,10 @@ const Pill = ({ label }: { label: string }) => (
     px={3}
     py={1}
     borderRadius="full"
-    bg="gray.200"
     fontSize="sm"
-    color="#192F6D"
-    background="rgba(80, 125, 250, 0.25)"
     fontWeight="bold"
+    color="#2B4D1B"
+    bg="rgba(43, 77, 27, 0.25)"
     textAlign="center"
     mr={2}
     mb={2}
@@ -36,7 +35,7 @@ const ProjectContent = ({ project }: { project: Project }) => (
   <Box
     borderWidth="2px"
     borderRadius="lg"
-    borderColor="black"
+    borderColor="#332216"
     p={4}
     width="100%"
   >
@@ -53,7 +52,7 @@ const ProjectContent = ({ project }: { project: Project }) => (
             flexDirection="column"
             alignItems="flex-start"
           >
-            <Text fontWeight="bold" textAlign={"start"} color="black" fontSize={["lg", "3xl"]}>
+            <Text fontWeight="bold" textAlign={"start"} color="#332216" fontSize={["lg", "3xl"]}>
               {project.projectName}
             </Text>
             <Text color="gray.600" textAlign={"start"} fontSize={["md", "lg"]}>
@@ -70,8 +69,8 @@ const ProjectContent = ({ project }: { project: Project }) => (
                 variant="outline"
                 alignSelf={["flex-center", "flex-center"]} 
                 mt={[2, 0]} 
-                borderColor="#192F6D"
-                color="#192F6D"
+                borderColor="#332216"
+                color="#332216"
                 borderRadius="md"
                 borderWidth={2}
                 padding={2}

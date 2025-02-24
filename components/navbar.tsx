@@ -15,8 +15,8 @@ const NavbarLink = ({ href, children, active }: {href: string, children: string,
                     styles={{
                         px: 2,
                         py: 1,
-                        color:"#192F6D",
-                        bg:"rgba(80, 125, 250, 0.25)",
+                        color:"#2B4D1B",
+                        bg:"rgba(43, 77, 27, 0.25)",
                         fontWeight: "bold",
                         borderRadius: "md",
                     }}

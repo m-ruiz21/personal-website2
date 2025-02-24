@@ -8,7 +8,7 @@ const HomeIntro = () => {
         <Text 
             fontSize={["3xl", "5xl"]} 
             fontWeight="light" 
-            color="black"
+            color="#332216"
             mb={4}
         >
             Howdy! I’m{" "}
@@ -17,8 +17,8 @@ const HomeIntro = () => {
                 styles={{
                     px: 2,
                     py: 1,
-                    color:"#192F6D",
-                    bg:"rgba(80, 125, 250, 0.25)",
+                    color:"#2B4D1B",
+                    bg:"rgba(43, 77, 27, 0.25)",
                     fontWeight: "bold",
                     borderRadius: "md",
                 }}
@@ -32,7 +32,7 @@ const HomeIntro = () => {
                 alignItems="center" 
                 fontSize={["2xl","4xl"]} 
                 fontWeight="light"
-                color="black"
+                color="#332216"
             >
                 <Text as="span" fontWeight="light">
                     I am a {" "}
@@ -41,7 +41,7 @@ const HomeIntro = () => {
                 <Box as="span" fontWeight="500" ml={2}>
                     <Typewriter
                         options={{
-                          strings: ['software developer', 'coffee lover', 'sports fanatic', 'foodie', 'stat geek', 'gym bro'],
+                          strings: ['software developer', 'coffee enthusiast', 'sports fanatic', 'foodie', 'stat geek', 'gym bro', 'fiancee', 'fighting texas aggie'],
                           autoStart: true,
                           loop: true,
                         }}

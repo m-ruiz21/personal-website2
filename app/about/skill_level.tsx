@@ -12,7 +12,7 @@ const SkillLevel = ({ level } : {level: number}) => {
                     key={`filled-${index}`}
                     width="12px" // Adjusted to make it wider
                     height="24px" // Adjusted to make it shorter
-                    bg="black"
+                    bg="#332216"
                     borderRadius="4px" // Add corner radius to curve the boxes
                     mr={1}
                 />
@@ -23,7 +23,7 @@ const SkillLevel = ({ level } : {level: number}) => {
                     width="12px" // Same width as filled blocks
                     height="24px" // Same height as filled blocks
                     bg="transparent"
-                    border="2px solid black"
+                    border="2px solid #332216"
                     borderRadius="4px" // Add corner radius to curve the boxes
                     mr={1}
                 />

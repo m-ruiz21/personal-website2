@@ -18,7 +18,7 @@ const ExperienceContent = ({ role }: { role: Role }) => (
   <Box
     borderWidth="2px"
     borderRadius="lg"
-    borderColor="black"
+    borderColor="#332216"
     p={4}
     width="100%"
   >
@@ -49,16 +49,16 @@ const ExperienceContent = ({ role }: { role: Role }) => (
               flexDirection="column"
               alignItems="flex-start"
             >
-              <Text fontWeight="bold" textAlign={"start"} color="black" fontSize={["lg", "3xl"]}>
+              <Text fontWeight="bold" textAlign={"start"} color="#332216" fontSize={["lg", "3xl"]}>
                 {role.roleName}
               </Text>
-              <Text color="gray.600" textAlign={"start"} fontSize={["lg", "xl"]}>
+              <Text color="#4D3E2E" textAlign={"start"} fontSize={["lg", "xl"]}>
                 {role.companyName}
               </Text>
             </Flex>
           </Flex>
 
-          <Text color="gray.900" fontSize={["lg", "xl"]} flexShrink={0}>
+          <Text color="#4D3E2E" fontSize={["lg", "xl"]} flexShrink={0}>
             {role.datesInvolved}
           </Text>
         </Flex>
@@ -90,7 +90,7 @@ const VerticalLine = () => (
       <Box
         width="2px"
         height="30px" 
-        bg="gray.800"
+        bg="#4D3E2E"
         position="relative"
         mt={1}
         mb={1}
