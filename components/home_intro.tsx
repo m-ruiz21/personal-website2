@@ -41,7 +41,7 @@ const HomeIntro = () => {
                 <Box as="span" fontWeight="500" ml={2}>
                     <Typewriter
                         options={{
-                          strings: ['software developer', 'coffee enthusiast', 'sports fanatic', 'foodie', 'stat geek', 'gym bro', 'fiancee', 'fighting texas aggie'],
+                          strings: ['software developer', 'coffee enthusiast', 'sports fanatic', 'foodie', 'stat geek', 'gym bro', 'fiance', 'fighting texas aggie'],
                           autoStart: true,
                           loop: true,
                         }}
